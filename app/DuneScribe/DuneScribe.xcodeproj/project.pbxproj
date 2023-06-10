@@ -14,6 +14,9 @@
 		86C468092A32F54C00F81EBA /* DuneScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468082A32F54C00F81EBA /* DuneScribeTests.swift */; };
 		86C468132A32F54C00F81EBA /* DuneScribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468122A32F54C00F81EBA /* DuneScribeUITests.swift */; };
 		86C468152A32F54C00F81EBA /* DuneScribeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468142A32F54C00F81EBA /* DuneScribeUITestsLaunchTests.swift */; };
+		86C468242A32F81100F81EBA /* WSDSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468232A32F81100F81EBA /* WSDSLogger.swift */; };
+		86C468252A32F81100F81EBA /* WSDSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468232A32F81100F81EBA /* WSDSLogger.swift */; };
+		86C468262A32F81100F81EBA /* WSDSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C468232A32F81100F81EBA /* WSDSLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		86C4680E2A32F54C00F81EBA /* DuneScribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuneScribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C468122A32F54C00F81EBA /* DuneScribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneScribeUITests.swift; sourceTree = "<group>"; };
 		86C468142A32F54C00F81EBA /* DuneScribeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneScribeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86C468232A32F81100F81EBA /* WSDSLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSDSLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		86C467EB2A32F54700F81EBA = {
 			isa = PBXGroup;
 			children = (
+				86C468222A32F7F800F81EBA /* WSDSLogger */,
 				86C467F62A32F54700F81EBA /* DuneScribe */,
 				86C468072A32F54C00F81EBA /* DuneScribeTests */,
 				86C468112A32F54C00F81EBA /* DuneScribeUITests */,
@@ -125,6 +130,14 @@
 				86C468142A32F54C00F81EBA /* DuneScribeUITestsLaunchTests.swift */,
 			);
 			path = DuneScribeUITests;
+			sourceTree = "<group>";
+		};
+		86C468222A32F7F800F81EBA /* WSDSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				86C468232A32F81100F81EBA /* WSDSLogger.swift */,
+			);
+			path = WSDSLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			files = (
 				86C467FA2A32F54700F81EBA /* ContentView.swift in Sources */,
 				86C467F82A32F54700F81EBA /* DuneScribeApp.swift in Sources */,
+				86C468242A32F81100F81EBA /* WSDSLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C468252A32F81100F81EBA /* WSDSLogger.swift in Sources */,
 				86C468092A32F54C00F81EBA /* DuneScribeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +291,7 @@
 			files = (
 				86C468152A32F54C00F81EBA /* DuneScribeUITestsLaunchTests.swift in Sources */,
 				86C468132A32F54C00F81EBA /* DuneScribeUITests.swift in Sources */,
+				86C468262A32F81100F81EBA /* WSDSLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

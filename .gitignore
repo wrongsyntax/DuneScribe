@@ -92,3 +92,5 @@ iOSInjectionProject/
 # MacOS
 #
 .DS_Store
+
+temp*
