@@ -1,4 +1,4 @@
-# NotesDune
+# DuneScribe
 
 ## Style Guides
 
